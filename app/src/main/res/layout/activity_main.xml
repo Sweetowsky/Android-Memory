@@ -54,5 +54,4 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="358dp" />
 
-</RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
- >
+</RelativeLayout>
