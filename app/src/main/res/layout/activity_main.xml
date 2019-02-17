@@ -6,42 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="170dp"
-        android:layout_marginRight="170dp"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.071" />
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonPhoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="140dp"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="138dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="146dp"
         android:onClick="photoClick"
         android:text="Aparat"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="221dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -52,6 +33,7 @@
         android:layout_marginTop="325dp"
         android:onClick="goToGame"
         android:text="Gra"
+        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="358dp" />
 
@@ -62,9 +44,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="146dp"
-        android:layout_marginLeft="146dp"
-        android:layout_marginTop="193dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="199dp"
+        android:visibility="gone"
         app:srcCompat="@mipmap/ic_launcher" />
 
 </RelativeLayout>

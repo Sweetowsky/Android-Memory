@@ -46,6 +46,7 @@ public class ImageAdapter extends BaseAdapter {
     private Integer[] mThumbIds = {
             R.drawable.coveredphoto, R.drawable.coveredphoto,
             R.drawable.coveredphoto, R.drawable.coveredphoto,
+            R.drawable.coveredphoto, R.drawable.coveredphoto,
             R.drawable.coveredphoto, R.drawable.coveredphoto
 
     };
